@@ -42,5 +42,12 @@ The whole projects files (source and schematic) is hosted at: https://github.com
 (Mission to mars, Canyon race, ...). Especially how to start the content and how to control it
 
 
+## Wiring
+
+### Data wiring plan
+
+<img src="https://cdn.rawgit.com/wiki/flozzone/jumpcube-doc/electrical-wiring/wiring.svg">
+
+
 
 
