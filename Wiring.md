@@ -1,0 +1,1 @@
+<img src="electrical-wiring/wiring.svg">
