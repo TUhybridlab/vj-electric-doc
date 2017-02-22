@@ -1,1 +1,1 @@
-<img src="electrical-wiring/wiring.svg">
+<img src="https://cdn.rawgit.com/wiki/flozzone/jumpcube-doc/electrical-wiring/wiring.svg">
