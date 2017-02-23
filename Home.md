@@ -27,15 +27,11 @@ The rotation mechanic consists of a servo, magnetic clutch and some cords.
 
 ## Power Dimmer
 
-The whole projects files (source and schematic) is hosted at: https://github.com/flozzone/ssr-dimmer-board
+* https://github.com/flozzone/ssr-dimmer-board
 
-* Raspberry software
-* Arduino software
+## VRagrance
 
-## Stinkomat 3000
-
-* Raspberry software
-* Arduino software
+* https://github.com/j-be/vj-aerome-scent-controller
 
 ## Contents
 
