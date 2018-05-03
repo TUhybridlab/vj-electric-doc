@@ -25,8 +25,8 @@ The following is a list of components that can be found on the following two pic
 	* Heater 1
 	* Heater 2
 
-<img src="images/cube_front_description.jpg">
-<img src="images/flight_controller.jpg">
+![Cube front view](images/cube_front_description.jpg)
+![Flight controller](images/flight_controller.jpg)
 
 ## Computing Station
 
@@ -58,7 +58,7 @@ The computing station consists of:
 
 ### Power Distribution
 
-<img src="images/power-distribution.jpg">
+![Power distribution](images/power-distribution.jpg)
 
 The power distribution features a residual-current device, multiple circuit 
 breakers and power sockets. Power is fed from a thick cable with a Schuko AC plug,
@@ -101,7 +101,7 @@ mode in the preceding image, showing the different modes of operation.
 | HALF_WAVE_BURST     | C                |
 | FULL_WAVE_BURST     | D                |
 
-<img src="images/dimmer_modes.jpg">
+![Dimmer operating modes](images/dimmer_modes.jpg)
 
 #### Connections
 
@@ -162,7 +162,7 @@ vj-aerome-scent-controller software.
 
 ### Connections
 
-<img src="images/vragrancer.jpg">
+![Dimmer operating modes](images/vragrancer.jpg)
 
 As depicted in the figure above, the VRagrancer is connected with
 
@@ -199,12 +199,6 @@ Connected with the lighting equipment
 | Name  | Description                  |
 |-------|------------------------------|
 | Power | Power distribution socket  2 |
-
-## Wiring
-
-### Data wiring plan
-
-<img src="https://cdn.rawgit.com/wiki/flozzone/jumpcube-doc/electrical-wiring/wiring.svg">
 
 
 
