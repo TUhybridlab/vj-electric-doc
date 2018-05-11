@@ -1,2 +1,2 @@
 default:
-	pandoc Home.md -o edoc_eisvogel.pdf --from markdown --template eisvogel.tex
+	pandoc Home.md -o edoc.pdf --from markdown --template eisvogel.tex

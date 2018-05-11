@@ -1,7 +1,11 @@
 # JumpCube Electrical Documentation
 
 The JumpCube consists of several electrical components, each of which consists of different parts. This documentation 
-lists all electrical components and explains in detail each component in its section, including hardware and software. 
+lists all electrical components and explains in detail each component in its section, including hardware and software.
+
+This document is written in markdown and is located at
+
+https://github.com/flozzone/jumpcube-doc/wiki
 
 ## Components
 
@@ -42,7 +46,7 @@ The computing station consists of:
 * Mouse and Keyboard
 * Microphone
 * Vive Connect Box
-* Router
+* Router (LAN switch)
 * Power supplies
 	* Monitor
 	* RaspberryPI
@@ -130,13 +134,13 @@ There are also two heaters, both are connected together using a power strip and 
 
 ### Schematic
 
-![ssr-dimmer-board schematic](images/ssr-dimmer-board_schematic.jpg)
+![schematic for the power dimmer](images/ssr-dimmer-board_schematic.jpg)
 
 Eagle schematic can be found at https://github.com/flozzone/ssr-dimmer-board/tree/master/hw
 
 ### Layout
 
-![ssr-dimmer-board layout](images/ssr-dimmer-board_layout.jpg)
+![layout for the power dimmer](images/ssr-dimmer-board_layout.jpg)
 
 Eagle board layout can be found at https://github.com/flozzone/ssr-dimmer-board/tree/master/hw
 
@@ -159,7 +163,13 @@ protocol. It consists of a Arduino Nano running the vj-flight-controller firmwar
 
 ### Schematic
 
-TODO Juri: What sensor is this? How is it connected to the Arduino?
+![schematic for the flight controller](images/vj-flight-controller_schematic.jpg)
+
+KiCad schematic is located at https://github.com/j-be/vj-flight-controller/tree/master/hw
+
+### Layout
+
+There is no board layout since the gyrosensor is available as a breakout board and just has to be sticked on the arduino.
 
 ### Software sources
 
@@ -188,9 +198,13 @@ sends them to the RPi.
 
 ### Schematic
 
-![servo-controller schematic](images/servo-controller_schematic.jpg)
+![schematic for the arm](images/servo-controller_schematic.jpg)
 
 KiCad schematic is located at https://github.com/j-be/vj-servo-controller/tree/master/hw
+
+### Layout
+
+There is no board layout since the parts are directly wired to the arduino.
 
 ### Software sources
 
@@ -213,12 +227,12 @@ As depicted in the figure above, the VRagrancer is connected with
 | Name       | Description                                                     |
 |------------|-----------------------------------------------------------------|
 | Power plug | Power distribution socket 4                                     |
-| LAN        | LAN switch                                                      |
+| LAN        | Goes to LAN switch                                              |
 | Tube       | Connected to the tube in the cable bundle that goes to the Vive |
 
 ### Schematic
 
-![vj-aerome-scent-controller schematic](images/vj-aerome-scent-controller_schematic.jpg)
+![schematic for the VRagrancer](images/vj-aerome-scent-controller_schematic.jpg)
 
 KiCad schematic can be found at https://github.com/j-be/vj-aerome-scent-controller/tree/master/hw
 
